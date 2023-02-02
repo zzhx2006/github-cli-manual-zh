@@ -20,7 +20,7 @@ export default {
             next: '下一页'
         },
         editLink: {
-            pattern: 'https://github.com/ZhangZhanhaoxiang/github-cli-manual-zh/edit/main/:path',
+            pattern: 'https://github.com/ZhangZhanhaoxiang/github-cli-manual-zh/edit/main/docs/:path',
             text: '在 GitHub 上编辑此页'
         },
         footer: {
