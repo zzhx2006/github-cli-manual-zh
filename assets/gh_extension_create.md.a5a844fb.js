@@ -1,0 +1,13 @@
+import{_ as e,c as a,o as s,a as n}from"./app.888d8daa.js";const g=JSON.parse('{"title":"gh extension create","description":"","frontmatter":{},"headers":[{"level":2,"title":"选项","slug":"选项","link":"#选项","children":[]},{"level":2,"title":"示例","slug":"示例","link":"#示例","children":[]},{"level":2,"title":"另请参见","slug":"另请参见","link":"#另请参见","children":[]}],"relativePath":"gh_extension_create.md","lastUpdated":1675236702000}'),l={name:"gh_extension_create.md"},t=n(`<h1 id="gh-extension-create" tabindex="-1">gh extension create <a class="header-anchor" href="#gh-extension-create" aria-hidden="true">#</a></h1><p>创建新扩展</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;">gh extension create [&lt;name&gt;] [flags]</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><h2 id="选项" tabindex="-1">选项 <a class="header-anchor" href="#选项" aria-hidden="true">#</a></h2><p><code>--precompiled &lt;string&gt;</code></p><p>创建预编译扩展。可选的值：go、other</p><h2 id="示例" tabindex="-1">示例 <a class="header-anchor" href="#示例" aria-hidden="true">#</a></h2><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;"># 以交互方式使用</span></span>
+<span class="line"><span style="color:#A6ACCD;">gh extension create</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;"># 创建基于脚本的扩展</span></span>
+<span class="line"><span style="color:#A6ACCD;">gh extension create foobar</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;"># 创建 Go 扩展</span></span>
+<span class="line"><span style="color:#A6ACCD;">gh extension create --precompiled=go foobar</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;"># 创建非 Go 预编译扩展</span></span>
+<span class="line"><span style="color:#A6ACCD;">gh extension create --precompiled=other foobar</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><h2 id="另请参见" tabindex="-1">另请参见 <a class="header-anchor" href="#另请参见" aria-hidden="true">#</a></h2><ul><li><a href="/github-cli-manual-zh/gh_extension.html">gh extension</a></li></ul>`,10),o=[t];function p(c,i,r,h,d,C){return s(),a("div",null,o)}const A=e(l,[["render",p]]);export{g as __pageData,A as default};

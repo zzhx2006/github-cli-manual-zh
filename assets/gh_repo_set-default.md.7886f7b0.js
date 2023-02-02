@@ -1,0 +1,14 @@
+import{_ as e,c as s,o as a,a as n}from"./app.888d8daa.js";const A=JSON.parse('{"title":"gh repo set-default","description":"","frontmatter":{},"headers":[{"level":2,"title":"选项","slug":"选项","link":"#选项","children":[]},{"level":2,"title":"示例","slug":"示例","link":"#示例","children":[]},{"level":2,"title":"另请参见","slug":"另请参见","link":"#另请参见","children":[]}],"relativePath":"gh_repo_set-default.md","lastUpdated":1675236702000}'),l={name:"gh_repo_set-default.md"},t=n(`<h1 id="gh-repo-set-default" tabindex="-1">gh repo set-default <a class="header-anchor" href="#gh-repo-set-default" aria-hidden="true">#</a></h1><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;">gh repo set-default [&lt;repository&gt;] [flags]</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p>此命令设置在查询本地克隆仓库的 GitHub API 时要使用的默认远程仓库。</p><p>gh 将默认仓库用于以下内容：</p><ul><li>查看和创建拉取请求</li><li>查看和创建议题</li><li>查看和创建发行版</li><li>使用 Actions</li><li>添加仓库和环境变量（environment secrets）</li></ul><h2 id="选项" tabindex="-1">选项 <a class="header-anchor" href="#选项" aria-hidden="true">#</a></h2><p><code>-u</code>, <code>--unset</code></p><p>取消设置当前默认仓库</p><p><code>-v</code>, <code>--view</code></p><p>查看当前默认仓库</p><h2 id="示例" tabindex="-1">示例 <a class="header-anchor" href="#示例" aria-hidden="true">#</a></h2><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;">以交互方式选择默认仓库：</span></span>
+<span class="line"><span style="color:#A6ACCD;">$ gh repo set-default</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;">显式设置仓库：</span></span>
+<span class="line"><span style="color:#A6ACCD;">$ gh repo set-default owner/repo</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;">查看当前默认仓库：</span></span>
+<span class="line"><span style="color:#A6ACCD;">$ gh repo set-default --view</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;">在交互式选取器（interactive picker）中显示更多仓库选项：</span></span>
+<span class="line"><span style="color:#A6ACCD;">$ git remote add newrepo https://github.com/owner/repo</span></span>
+<span class="line"><span style="color:#A6ACCD;">$ gh repo set-default</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><h2 id="另请参见" tabindex="-1">另请参见 <a class="header-anchor" href="#另请参见" aria-hidden="true">#</a></h2><ul><li><a href="/github-cli-manual-zh/gh_repo.html">gh repo</a></li></ul>`,14),p=[t];function o(i,r,c,d,h,u){return a(),s("div",null,p)}const _=e(l,[["render",o]]);export{A as __pageData,_ as default};

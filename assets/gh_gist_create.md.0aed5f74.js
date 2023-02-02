@@ -1,0 +1,16 @@
+import{_ as s,c as a,o as e,a as n}from"./app.888d8daa.js";const A=JSON.parse('{"title":"gh gist create","description":"","frontmatter":{},"headers":[{"level":2,"title":"选项","slug":"选项","link":"#选项","children":[]},{"level":2,"title":"示例","slug":"示例","link":"#示例","children":[]},{"level":2,"title":"另请参见","slug":"另请参见","link":"#另请参见","children":[]}],"relativePath":"gh_gist_create.md","lastUpdated":1675236702000}'),l={name:"gh_gist_create.md"},t=n(`<h1 id="gh-gist-create" tabindex="-1">gh gist create <a class="header-anchor" href="#gh-gist-create" aria-hidden="true">#</a></h1><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;">gh gist create [&lt;filename&gt;... | -] [flags]</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p>用给定的内容创建一个新的 GitHub gist。</p><p>Gist 可以从一个或多个文件创建。或者，传递“-”作为从标准输入中读取的文件名。</p><p>默认情况下，gist 是保密的；使用“--public”使其公开。</p><h2 id="选项" tabindex="-1">选项 <a class="header-anchor" href="#选项" aria-hidden="true">#</a></h2><p><code>-d</code>, <code>--desc &lt;string&gt;</code></p><p>此 gist 的描述</p><p><code>-f</code>, <code>--filename &lt;string&gt;</code></p><p>提供从标准输入读取时要使用的文件名</p><p><code>-p</code>, <code>--public</code></p><p>公开列出 gist（默认：secret）</p><p><code>-w</code>, <code>--web</code></p><p>使用创建的 gist 打开 Web 浏览器</p><h2 id="示例" tabindex="-1">示例 <a class="header-anchor" href="#示例" aria-hidden="true">#</a></h2><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;"># 将文件“hello.py”发布为公共 gist</span></span>
+<span class="line"><span style="color:#A6ACCD;">$ gh gist create --public hello.py</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;"># 创建带有说明的 gist</span></span>
+<span class="line"><span style="color:#A6ACCD;">$ gh gist create hello.py -d &quot;my Hello-World program in Python&quot;</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;"># 创建包含多个文件的 gist</span></span>
+<span class="line"><span style="color:#A6ACCD;">$ gh gist create hello.py world.py cool.txt</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;"># 从标准输入读取以创建 gist</span></span>
+<span class="line"><span style="color:#A6ACCD;">$ gh gist create -</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span>
+<span class="line"><span style="color:#A6ACCD;"># 从另一个命令通过管道传输的输出创建 gist</span></span>
+<span class="line"><span style="color:#A6ACCD;">$ cat cool.txt | gh gist create</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><h2 id="另请参见" tabindex="-1">另请参见 <a class="header-anchor" href="#另请参见" aria-hidden="true">#</a></h2><ul><li><a href="/github-cli-manual-zh/gh_gist.html">gh gist</a></li></ul>`,18),p=[t];function c(i,o,r,d,h,g){return e(),a("div",null,p)}const _=s(l,[["render",c]]);export{A as __pageData,_ as default};
