@@ -43,10 +43,6 @@ VitePress 会在 `http://localhost:5173/github-cli-manual-zh/` 热重载一个�
 $ yarn docs:build
 ```
 
-## 贡献者
-
-在 [CONTRIBUTING.md](CONTRIBUTING.md) 中可以查阅为该项目做出贡献的开发者. 
-
 ## 参与贡献
 
 欢迎各位开源爱好者参与贡献此项目. 
@@ -62,6 +58,10 @@ $ yarn docs:build
 - 为 VitePress 增添功能. 
 
 目前还有 [`gh help reference`](https://cli.github.com/manual/gh_help_reference) 和 [`examples`](https://cli.github.com/manual/examples) 两个章节缺少翻译. 
+
+在编辑章节时，不要忘了在中文和英文之间添加空格. 
+
+更多排版技巧，可以参考 [LCTT 的中文排版指北](https://lctt.github.io/wiki/tutorials/copywriting.html). 
 
 可以通过以下步骤为本项目做贡献：
 
