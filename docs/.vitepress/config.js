@@ -1,9 +1,14 @@
+import Sitemap from 'vite-plugin-sitemap'
+
 export default {
     lang: 'zh-CN',
     title: 'GitHub CLI 中文手册',
     description: 'GitHub CLI 中文手册',
     base: "/github-cli-manual-zh/",
     lastUpdated: true,
+    plugins: [
+        Sitemap(),
+    ],
     themeConfig: {
         nav: [
             { text: '首页', link: '/index' },
